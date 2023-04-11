@@ -1,0 +1,1 @@
+select text from dba_source where name='VERIFY_FUNCTION'

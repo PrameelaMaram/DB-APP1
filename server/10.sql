@@ -1,0 +1,1 @@
+ select value from v$parameter where name like '%remote_login_password%'

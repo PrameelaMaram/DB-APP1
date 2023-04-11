@@ -1,0 +1,1 @@
+select GRANTEE,privilege,admin_option from sys.dba_sys_privs WHERE grantee = 'PUBLIC'

@@ -1,0 +1,1 @@
+select value from  v$parameter where NAME='log_archive_dest_1'

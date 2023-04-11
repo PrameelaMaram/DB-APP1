@@ -1,0 +1,1 @@
+SELECT name Username, to_char(ptime, 'yyyy/mm/dd hh24:mi:ss') AS "Password Changed" FROM sys.user$ ORDER BY username

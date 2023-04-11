@@ -1,0 +1,1 @@
+SELECT * FROM sys.dba_roles

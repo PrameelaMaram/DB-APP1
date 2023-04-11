@@ -1,0 +1,1 @@
+select to_char(sysdate,'dd-Mon-yyyy') from dual

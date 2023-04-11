@@ -1,0 +1,1 @@
+SELECT substr(username, 1, 30) Username, substr(account_status, 1, 20) account_status, substr(profile, 1, 20) Profile, to_char(Created,'dd-MON-yyyy') Created FROM sys.dba_users ORDER BY username

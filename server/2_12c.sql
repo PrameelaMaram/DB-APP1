@@ -1,0 +1,1 @@
+select text from dba_source where name='ORA12C_STIG_VERIFY_FUNCTION'

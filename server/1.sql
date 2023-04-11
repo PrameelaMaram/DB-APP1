@@ -1,0 +1,1 @@
+select to_char(sysdate, 'dd/mm/yyyy') sys_date,a.INSTANCE_NAME  ,a.host_name Server_name ,b.PROFILE,b.RESOURCE_NAME,b.RESOURCE_TYPE ,b.LIMIT from v$instance a , dba_profiles b 
